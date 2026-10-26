@@ -4,12 +4,10 @@
 Como vai?
 
 Chamo-me Rafael[^2] e sou o criador desta zine que é também um laboratório criativo.
-
 Espero verdadeiramente que goste. É em absoluto um trabalho independente.
 
 RFZ
 
-PS.: Você pode compartilhá-la desde que citada a fonte.
 ## EDIÇÕES
 
 Nos links abaixo você encontrará os pdfs com cada edição da revista.[^1]
