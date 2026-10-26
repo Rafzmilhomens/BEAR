@@ -9,3 +9,5 @@ Vocês já sabem: a BEAR é um laboratório e o objetivo do experimento hoje é 
 Esperamos que apreciem!
 
 RFZ
+
+[[Capa_A_BEAR_NOV. 2026.pdf]]

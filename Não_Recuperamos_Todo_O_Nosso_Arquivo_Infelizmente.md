@@ -13,3 +13,5 @@ Pedimos perdão pelo hiato aos nossos colaboradores, amigos e leitores.
 Sejam todos bem-viados!
 
 RFZ
+
+[[BEAR_OUT2026.pdf]]
