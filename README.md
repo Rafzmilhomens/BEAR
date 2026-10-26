@@ -18,4 +18,4 @@ Nos links abaixo você encontrará os pdfs com cada edição da revista.[^1]
 
 [^1]: Infelizmente perdermos muitos arquivos recentemente e só foi possível recuperar as edições disponíveis hoje.
 
-[^2]: https://rafzmilhomens.github.io/RafaelMMilhomens/
+[^2]: [https://rafzmilhomens.github.io/RafaelMMilhomens/](https://rafzmilhomens.github.io/RafaelMMilhomens/)
