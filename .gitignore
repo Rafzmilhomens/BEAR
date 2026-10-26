@@ -4,7 +4,9 @@
 __MACOSX/
 .AppleDouble
 .LSOverride
-Icon[]
+Icon[
+]
+.Obsidian
 
 # Thumbnails
 ._*
