@@ -7,7 +7,7 @@ Espero verdadeiramente que goste. É em absoluto um trabalho independente.
 
 RFZ
 
-## EDIÇÕES
+# EDIÇÕES
 
 Nos links abaixo você encontrará os pdfs com cada edição da revista.[^1]
 
