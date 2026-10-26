@@ -4,6 +4,10 @@ Olá, como vai?
 
 Chamo-me Rafael e sou o criador dessa zine que é um laboratório criativo.
 
+Espero verdadeiramente que goste. É em absoluto um trabalho independente.
+
+RFZ
+
 PS.: Você pode compartilhá-la desde que citada a fonte.
 # EDIÇÕES
 
