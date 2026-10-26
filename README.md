@@ -3,7 +3,7 @@
 
 Como vai?
 
-Chamo-me Rafael[^2] e sou o criador dessa zine que é um laboratório criativo.
+Chamo-me Rafael[^2] e sou o criador desta zine que é também um laboratório criativo.
 
 Espero verdadeiramente que goste. É em absoluto um trabalho independente.
 
