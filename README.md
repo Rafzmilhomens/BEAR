@@ -1,5 +1,4 @@
 # **Boletim Especializado Para Admiradores De Rapazes**
----
 
 Como vai?
 
