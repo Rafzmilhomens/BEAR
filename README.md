@@ -1,4 +1,4 @@
-Boletim Especializado Para Admiradores De Rapazes
+**Boletim Especializado Para Admiradores De Rapazes**
 
 Olá, como vai?
 
