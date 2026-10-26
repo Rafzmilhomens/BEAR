@@ -13,7 +13,7 @@ PS.: Você pode compartilhá-la desde que citada a fonte.
 
 Nos links abaixo você encontrará os pdfs com cada edição da revista.[^1]
 
--  [Não_Recuperamos_Todo_O_Nosso_Arquivo_Infelizmente](Não_Recuperamos_Todo_O_Nosso_Arquivo_Infelizmente)
--  [Provoquei_Eles_E_Eles_Tiraram_De_Letra](Provoquei_Eles_E_Eles_Tiraram_De_Letra)
+-  [OUT2026](OUT2026.md)
+-  [NOV2026](NOV2026.md)
 
 [^1]: Infelizmente perdermos muitos arquivos recentemente e só foi possível recuperar as edições disponíveis hoje.
