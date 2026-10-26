@@ -10,4 +10,4 @@ Esperamos que apreciem!
 
 RFZ
 
-[[Capa_A_BEAR_NOV. 2026.pdf]]
+[Capa_A_BEAR_NOV. 2026.pdf](Capa_A_BEAR_NOV. 2026.pdf)

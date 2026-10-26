@@ -14,4 +14,5 @@ Sejam todos bem-viados!
 
 RFZ
 
-[[BEAR_OUT2026.pdf]]
+[BEAR_OUT2026.pdf](BEAR_OUT2026.pdf)
+
