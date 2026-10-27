@@ -1,6 +1,4 @@
-```HTML 
 <a rel="me" href="https://organica.social/@rafzmilhomens">Mastodon</a>
-```
 
 # **Boletim Especializado Para Admiradores De Rapazes**
 
