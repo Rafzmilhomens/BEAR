@@ -1,0 +1,179 @@
+<!-- ===== BEAR — estilo punk/xerox. Colar em _includes/head-custom.html (vale para todas as páginas) ===== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Special+Elite&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --papel: #F2EFE6;
+    --preto: #0A0A0A;
+    --rosa: #FF2E88;    /* cor de marca-texto / serigrafia */
+  }
+
+  /* ---------- Papel xerocado: fundo com granulação de pontos ---------- */
+  html, body {
+    background-color: var(--papel);
+    background-image: radial-gradient(rgba(0,0,0,0.07) 1px, transparent 1px);
+    background-size: 4px 4px;
+  }
+  body {
+    color: var(--preto);
+    font-family: "Special Elite", "Courier New", monospace;
+  }
+
+  /* ---------- A folha: borda grossa e sombra dura ---------- */
+  .markdown-body {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.6;
+    color: var(--preto);
+    max-width: 44em;
+    background: #FFFFFF;
+    border: 4px solid var(--preto);
+    box-shadow: 10px 10px 0 var(--preto);
+    padding: 2.5em 2.5em 1.5em !important;
+    margin: 3em auto !important;
+    transform: rotate(-0.4deg);
+  }
+
+  /* ---------- Nome da zine: letras enormes, impressão desalinhada ---------- */
+  .markdown-body > h1:first-child {
+    border: 0;
+    margin: 0 0 0.6em;
+    padding: 0;
+  }
+  .markdown-body > h1:first-child a {
+    font-family: Anton, Impact, sans-serif;
+    font-size: clamp(4rem, 16vw, 9rem);
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    color: var(--preto);
+    text-decoration: none;
+    text-shadow: 6px 5px 0 var(--rosa);   /* erro de registro, como serigrafia */
+  }
+
+  /* ---------- Títulos: faixa preta torta, tipo recorte colado ---------- */
+  .markdown-body h1:not(:first-child),
+  .markdown-body h2,
+  .markdown-body h3 {
+    display: inline-block;
+    font-family: Anton, Impact, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 1.1;
+    background: var(--preto);
+    color: var(--papel);
+    border: 0;
+    padding: 0.15em 0.45em;
+    margin: 1.4em 0 0.6em;
+    transform: rotate(-1.5deg);
+  }
+  .markdown-body h1:not(:first-child) { font-size: 2.1em; }
+  .markdown-body h2 { font-size: 1.6em; transform: rotate(1deg); }
+  .markdown-body h3 { font-size: 1.25em; background: var(--rosa); color: var(--preto); }
+  .markdown-body h1:nth-of-type(odd):not(:first-child) { transform: rotate(1.2deg); }
+
+  /* ---------- Texto ---------- */
+  .markdown-body p { margin: 0 0 1em; }
+
+  .markdown-body strong {
+    background: var(--rosa);
+    color: var(--preto);
+    padding: 0 0.2em;
+    font-weight: 400;
+  }
+
+  /* Links: marca-texto que invertem ao passar o mouse */
+  .markdown-body a {
+    color: var(--preto);
+    text-decoration: none;
+    background: linear-gradient(transparent 55%, var(--rosa) 55%);
+  }
+  .markdown-body a:hover {
+    background: var(--preto);
+    color: var(--papel);
+  }
+  /* ...mas não dentro de títulos */
+  .markdown-body h1 a, .markdown-body h2 a, .markdown-body h3 a { background: none; }
+  .markdown-body h1 strong, .markdown-body h2 strong, .markdown-body h3 strong {
+    background: none;
+    color: inherit;
+    padding: 0;
+  }
+
+  /* Listas (as edições): etiquetas tortas */
+  .markdown-body ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+  }
+  .markdown-body ul li { margin: 0 !important; }
+  .markdown-body ul li a {
+    display: inline-block;
+    font-family: Anton, Impact, sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 0.05em;
+    padding: 0.25em 0.7em;
+    border: 3px solid var(--preto);
+    background: var(--papel);
+    box-shadow: 4px 4px 0 var(--preto);
+    transform: rotate(-2deg);
+  }
+  .markdown-body ul li:nth-child(even) a { transform: rotate(2deg); }
+  .markdown-body ul li a:hover {
+    background: var(--rosa);
+    color: var(--preto);
+    box-shadow: 2px 2px 0 var(--preto);
+  }
+
+  /* Citações: bilhete colado com fita */
+  .markdown-body blockquote {
+    color: var(--preto);
+    border: 2px dashed var(--preto);
+    padding: 0.8em 1em;
+    background: var(--papel);
+  }
+
+  .markdown-body hr {
+    height: 4px;
+    background: var(--preto);
+    border: 0;
+    margin: 2em 0;
+  }
+
+  .markdown-body img {
+    max-width: 100%;
+    filter: grayscale(1) contrast(1.4);   /* imagens como fotocópia */
+    border: 3px solid var(--preto);
+  }
+
+  /* Notas de rodapé e rodapé do tema */
+  .markdown-body .footnotes {
+    font-size: 0.8em;
+    border-top: 2px dashed var(--preto);
+    margin-top: 2.5em;
+    padding-top: 0.5em;
+    color: var(--preto);
+  }
+  .markdown-body sup a { background: var(--rosa); padding: 0 0.15em; }
+  .markdown-body .footer {
+    border-top: 2px dashed var(--preto) !important;
+    color: var(--preto) !important;
+    font-size: 0.75em;
+  }
+
+  ::selection { background: var(--preto); color: var(--rosa); }
+
+  @media (max-width: 600px) {
+    .markdown-body {
+      padding: 1.5em 1.2em 1em !important;
+      margin: 1.5em 0.8em !important;
+      box-shadow: 6px 6px 0 var(--preto);
+      transform: none;
+    }
+  }
+</style>
+<!-- ===== fim do estilo ===== -->
