@@ -13,6 +13,7 @@ RFZ
 
 Nos links abaixo você encontrará os pdfs com cada edição da revista.[^1]
 
+- [JAN2027](JAN2027)
 - [DEZ2026](DEZ2026)
 - [NOV2026](NOV2026.md)
 - [OUT2026](OUT2026.md)
